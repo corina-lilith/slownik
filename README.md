@@ -2,6 +2,8 @@
 
 A React website with Polish and Spanish flash cards.
 
+## This website is built with the following tech stack:
+
 - TypeScript
 - React
 - Vitest
