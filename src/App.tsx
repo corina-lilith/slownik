@@ -1,11 +1,27 @@
 
-import './App.css'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Layout from './components/Layout';
+
 
 function App() {
 
 
   return (
-    <h1>Welcome to Slownik!</h1>
+
+    <Router>
+      <Layout>
+        <Routes>
+          {/* <Route path="/" element={} /> */}
+          <Route />
+
+
+        </Routes>
+      </Layout>
+    </Router>
+
+
   )
 }
 
