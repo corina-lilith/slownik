@@ -4,10 +4,11 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import Button from '@mui/material/Button';
+import { useState } from 'react';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -50,11 +51,18 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [buttonText, setButtonText] = useState("Slownik");
+
+  const toggleText = () => {
+    setButtonText(prev => (prev === "Slownik" ? "Diccionario" : "Slownik"));
+  };
+
   return (
     <>
       <AppBar position="fixed">
-        <Toolbar style={{ backgroundColor: '#D11D05' }}>
+        <Toolbar sx={{ backgroundColor: '#D11D05', display: "flex", justifyContent: 'space-between' }}>
           <IconButton
             size="large"
             edge="start"
@@ -64,15 +72,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            Slownik
-          </Typography>
-          <Search>
+
+          <Button variant="text" onClick={toggleText} sx={{ textTransform: 'none', color: 'white', fontSize: '1.25rem' }}>{buttonText}</Button>
+
+          <Search sx={{ width: '200px' }}>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
