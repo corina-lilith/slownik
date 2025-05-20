@@ -1,0 +1,65 @@
+[
+  {
+    "english": "Beer",
+    "polish": "Piwo",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/beer.png"
+  },
+  {
+    "english": "Coffee",
+    "polish": "Kawa",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/coffee.png"
+  },
+  {
+    "english": "Cola",
+    "polish": "Cola",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/cola.png"
+  },
+  {
+    "english": "Juice",
+    "polish": "Sok",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/juice.png"
+  },
+  {
+    "english": "Cocktail",
+    "polish": "koktajl",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/cocktail.png"
+  },
+  {
+    "english": "Tea",
+    "polish": "Herbata",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/tea.png"
+  },
+  {
+    "english": "Vodka",
+    "polish": "Wódka",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/vodka.png"
+  },
+  {
+    "english": "Water",
+    "polish": "Woda",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/water.png"
+  },
+  {
+    "english": "Wine",
+    "polish": "Wino",
+    "spanish": "",
+    "italian": "",
+    "image": "https://polish-website.s3.ap-southeast-2.amazonaws.com/drinks/wine.png"
+  }
+]
